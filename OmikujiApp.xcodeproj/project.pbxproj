@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0D894E2D34BF5D002D0833 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D894D2D34BF5D002D0833 /* SecondView.swift */; };
 		6E41A0052D34B77700C6D055 /* OmikujiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A0042D34B77700C6D055 /* OmikujiAppApp.swift */; };
 		6E41A0072D34B77700C6D055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A0062D34B77700C6D055 /* ContentView.swift */; };
 		6E41A0092D34B77A00C6D055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E41A0082D34B77A00C6D055 /* Assets.xcassets */; };
-		6E41A00C2D34B77A00C6D055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E41A00B2D34B77A00C6D055 /* Preview Assets.xcassets */; };
 		6E41A0162D34B77A00C6D055 /* OmikujiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A0152D34B77A00C6D055 /* OmikujiAppTests.swift */; };
 		6E41A0202D34B77A00C6D055 /* OmikujiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A01F2D34B77A00C6D055 /* OmikujiAppUITests.swift */; };
 		6E41A0222D34B77A00C6D055 /* OmikujiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41A0212D34B77A00C6D055 /* OmikujiAppUITestsLaunchTests.swift */; };
@@ -34,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E0D894D2D34BF5D002D0833 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		6E41A0012D34B77700C6D055 /* OmikujiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmikujiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E41A0042D34B77700C6D055 /* OmikujiAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikujiAppApp.swift; sourceTree = "<group>"; };
 		6E41A0062D34B77700C6D055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E41A0082D34B77A00C6D055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E41A00B2D34B77A00C6D055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E41A0112D34B77A00C6D055 /* OmikujiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikujiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E41A0152D34B77A00C6D055 /* OmikujiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmikujiAppTests.swift; sourceTree = "<group>"; };
 		6E41A01B2D34B77A00C6D055 /* OmikujiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikujiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,19 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				6E41A0042D34B77700C6D055 /* OmikujiAppApp.swift */,
+				6E0D894D2D34BF5D002D0833 /* SecondView.swift */,
 				6E41A0062D34B77700C6D055 /* ContentView.swift */,
 				6E41A0082D34B77A00C6D055 /* Assets.xcassets */,
-				6E41A00A2D34B77A00C6D055 /* Preview Content */,
 			);
 			path = OmikujiApp;
-			sourceTree = "<group>";
-		};
-		6E41A00A2D34B77A00C6D055 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				6E41A00B2D34B77A00C6D055 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		6E41A0142D34B77A00C6D055 /* OmikujiAppTests */ = {
@@ -231,7 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E41A00C2D34B77A00C6D055 /* Preview Assets.xcassets in Resources */,
 				6E41A0092D34B77A00C6D055 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0D894E2D34BF5D002D0833 /* SecondView.swift in Sources */,
 				6E41A0072D34B77700C6D055 /* ContentView.swift in Sources */,
 				6E41A0052D34B77700C6D055 /* OmikujiAppApp.swift in Sources */,
 			);
